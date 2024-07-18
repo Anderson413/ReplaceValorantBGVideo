@@ -1,5 +1,5 @@
 # ReplaceValorantBGVideo
-![png](https://github.com/Anderson413/ReplaceValorantBGVideo/bolb/master/ReplaceValorantBGVideo/program.png)
+![png](https://github.com/Anderson413/ReplaceValorantBGVideo/blob/master/ReplaceValorantBGVideo/program.png)
 
 ## 怎么用？
 1.更换国服背景视频只需要点击自动检测然后选择当前赛季的背景视频
