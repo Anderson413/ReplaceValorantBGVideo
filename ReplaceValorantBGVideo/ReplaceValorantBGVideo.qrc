@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/ReplaceValorantBGVideo">
+        <file>Icon1.ico</file>
+    </qresource>
+</RCC>
