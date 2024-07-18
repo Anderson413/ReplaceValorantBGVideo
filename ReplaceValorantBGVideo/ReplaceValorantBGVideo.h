@@ -5,9 +5,7 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_ReplaceValorantBGVideo.h"
-#include <qbuttongroup.h>
 #include <QtMultimedia/QMediaPlayer>
-#include <QGraphicsItem>
 #include <QVideoWidget>
 #include <Qtimer>
 #include <qprocess.h>
@@ -23,7 +21,6 @@ public:
 	ReplaceValorantBGVideo(QWidget *parent = nullptr);
 	~ReplaceValorantBGVideo();
 
-	QButtonGroup*	btnGroup     = new QButtonGroup(this);
 	QMediaPlayer*	player       = new QMediaPlayer(this);
 	QVideoWidget*	pVideoWidget = new QVideoWidget(this);
 	QTimer*			timer		 = new QTimer(this);

@@ -5,9 +5,6 @@
 #include <qmessagebox.h>
 #include <sddl.h>
 #include <atlbase.h>
-#include <QScopedPointer>
-#include <random>
-#include <ctime>
 
 ReplaceValorantBGVideo::ReplaceValorantBGVideo(QWidget *parent)
 	: QMainWindow(parent)
@@ -124,7 +121,7 @@ ReplaceValorantBGVideo::ReplaceValorantBGVideo(QWidget *parent)
 	// 设置状态栏
 	QLabel* label = new QLabel;
 	label->setOpenExternalLinks(true);
-	label->setText("<a href=\"https://www.bilibili.com/video/BV1Gw411g7HB\">我要玩瓦罗兰特！我要玩瓦罗兰特！（打滚（</a>");
+	label->setText("<a href=\"https://v.douyin.com/iMM6WAuG\">我要玩瓦罗兰特！我要玩瓦罗兰特！（打滚（</a>");
 	ui.statusBar->setSizeGripEnabled(false);
 	ui.statusBar->addPermanentWidget(label);
 
@@ -136,7 +133,6 @@ ReplaceValorantBGVideo::~ReplaceValorantBGVideo()
 {
 	recoverVideo_onProcessClosed();
 	saveProFile();
-	delete btnGroup;
 	delete player;
 	delete timer;
 }
@@ -428,7 +424,7 @@ void ReplaceValorantBGVideo::importVideos()
 		}
 	}
 	//import
-	//ui.videoList->clear();
+	ui.videoList->clear();
 	QDir dir(currentDir);
 	dir.setFilter(QDir::Files);
 	dir.setNameFilters(QStringList("*.mp4"));
@@ -441,7 +437,6 @@ void ReplaceValorantBGVideo::importVideos()
 		brandNewItem->setText(QFileInfo(saveNewList[i]).fileName());
 		brandNewItem->setWhatsThis(saveNewList[i]);
 	}
-
 }
 
 bool ReplaceValorantBGVideo::getGamePath(QString& GamePath)
@@ -526,7 +521,8 @@ void ReplaceValorantBGVideo::onTimeout()
 					replaceVideo(getItem->whatsThis());
 				}
 				else {
-					qDebug() << "No item selected, and no default item available.";
+					dont_Update_StatusTips = true;
+					ui.statusBar->showMessage("huh?: 好像什么都没有呢＞﹏＜");
 				}
 			}
 		}
