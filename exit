@@ -1,0 +1,82 @@
+[33mcommit b5cfc19e42b9dbf7217ebd29a8f29c1a9bae32e4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: D-CATC4U <128937443+Anderson413@users.noreply.github.com>
+Date:   Sun Aug 18 04:29:53 2024 +0800
+
+    Create README.md
+    
+    看不懂 我玩 KAY/O 的。U R POWERLESS🤜🏻🤛🏻🤖
+
+[33mcommit 2b84db23421a9b87015879d637a22d99ac0ed897[m
+Author: D-CATC4U <128937443+Anderson413@users.noreply.github.com>
+Date:   Sun Aug 18 04:23:48 2024 +0800
+
+    Rename README.md to README.md.bak
+    
+    This not a correct tutorial.
+
+[33mcommit cf63e609932e571b774f2d1009e0a3820ee5e91b[m
+Merge: 2e23b3c 71f9d28
+Author: D-CATC4U <lost-sky@qq.com>
+Date:   Fri Jul 19 22:57:23 2024 +0800
+
+    Merge branch 'master' of https://github.com/Anderson413/ReplaceValorantBGVideo
+
+[33mcommit 2e23b3cd8142b32b8536889fb4137eacf0c6a624[m
+Author: D-CATC4U <128937443+Anderson413@users.noreply.github.com>
+Date:   Thu Jul 18 22:39:43 2024 +0800
+
+    .
+
+[33mcommit 71f9d281551e50365ca2ff2abc78c1aba164cb4a[m[33m ([m[1;33mtag: Release[m[33m)[m
+Author: D-CATC4U <128937443+Anderson413@users.noreply.github.com>
+Date:   Thu Jul 18 22:39:43 2024 +0800
+
+    Update README.md
+
+[33mcommit 725897fe6a3fba73db354b6c1f3aee1f3d0be61b[m
+Author: D-CATC4U <128937443+Anderson413@users.noreply.github.com>
+Date:   Thu Jul 18 22:39:03 2024 +0800
+
+    Update README.md
+
+[33mcommit ea4de831bc1a442e155a58a2efd4aeabde66c8ea[m
+Author: D-CATC4U <128937443+Anderson413@users.noreply.github.com>
+Date:   Thu Jul 18 22:38:40 2024 +0800
+
+    Update README.md
+
+[33mcommit be414b6b797ede2489cd181d715e35776d5649da[m
+Author: D-CATC4U <128937443+Anderson413@users.noreply.github.com>
+Date:   Thu Jul 18 22:37:54 2024 +0800
+
+    Update README.md
+
+[33mcommit 82732613b126d4dd8a6de7f3fc197e0cabc13439[m
+Author: D-CATC4U <128937443+Anderson413@users.noreply.github.com>
+Date:   Thu Jul 18 22:37:25 2024 +0800
+
+    Update README.md
+
+[33mcommit c48ec8f751180ec2f824cbc496b4d844cc2f0f79[m
+Author: D-CATC4U <128937443+Anderson413@users.noreply.github.com>
+Date:   Thu Jul 18 22:36:52 2024 +0800
+
+    Update README.md
+
+[33mcommit 497c8d91131ffae9cf8886efe2f7ae992d3be339[m
+Author: D-CATC4U <128937443+Anderson413@users.noreply.github.com>
+Date:   Thu Jul 18 22:35:28 2024 +0800
+
+    Update README.md
+
+[33mcommit 5549149911ebbec7adbf5192a32f1ab620d010e4[m
+Author: D-CATC4U <lost-sky@qq.com>
+Date:   Thu Jul 18 22:31:31 2024 +0800
+
+    添加项目文件。
+
+[33mcommit 4b67d3a59c9644af3a684fcec85190dde3dc09a6[m
+Author: D-CATC4U <lost-sky@qq.com>
+Date:   Thu Jul 18 22:31:25 2024 +0800
+
+    添加 .gitignore 和 .gitattributes。
